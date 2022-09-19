@@ -1,0 +1,58 @@
+.services-container {
+  background-color: #f0f2f7;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.ser-heading {
+  font-size: 22px;
+  letter-spacing: 2px;
+  font-family: 'Roboto';
+}
+
+.ser-description {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.logo {
+  font-size: 50px;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.each-service {
+  margin-right: 30px;
+  margin-left: 30px;
+  width: 300px;
+  text-align: center;
+}
+
+.services-name {
+  font-family: 'Roboto';
+  font-size: 12px;
+  text-align: center;
+}
+
+@media screen and (min-width: 576px) {
+  .ser-heading {
+    font-size: 28px;
+  }
+  .ser-description {
+    font-size: 22px;
+  }
+  .logo {
+    font-size: 120px;
+  }
+  .services-name {
+    font-size: 22px;
+  }
+}

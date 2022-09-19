@@ -1,0 +1,60 @@
+.clients-container {
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.cli-heading {
+  font-size: 22px;
+  letter-spacing: 2px;
+  font-family: 'Roboto';
+}
+
+.cli-description {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.slider-container {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #111212;
+  size: 25px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #111212;
+}
+
+.thumbnail {
+  width: 50px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+  .thumbnail {
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .cli-heading {
+    font-size: 28px;
+  }
+  .cli-description {
+    font-size: 22px;
+  }
+  .thumbnail {
+    width: 150px;
+  }
+}
